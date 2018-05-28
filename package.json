@@ -1,0 +1,40 @@
+{
+  "name": "semantic-release-plugin-demo",
+  "license": "MIT",
+  "devDependencies": {
+    "semantic-release": "^15.5.0"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "release": {
+    "verifyConditions": [
+      "./plugin"
+    ],
+    "analyzeCommits": [
+      "./plugin"
+    ],
+    "verifyRelease": [
+      "./plugin"
+    ],
+    "generateNotes": [
+      "./plugin"
+    ],
+    "prepare": [
+      "./plugin"
+    ],
+    "publish": [
+      "./plugin"
+    ],
+    "success": [
+      "./plugin"
+    ],
+    "fail": [
+      "./plugin"
+    ]
+  },
+  "version": "0.0.0-development",
+  "dependencies": {
+    "aggregate-error": "^1.0.0"
+  }
+}
